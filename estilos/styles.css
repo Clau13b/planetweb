@@ -1,0 +1,349 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+
+}
+
+
+
+
+.hero {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 15px;
+    justify-content: flex-end;
+    width: 100%;
+    height: 100vh;
+    background-image: url(../imagenes/marciano_hero.png ), repeating-linear-gradient(48deg, rgb(0, 0, 0) 0px, rgb(0, 0, 0) 27px, transparent 27px, transparent 30px), repeating-linear-gradient(352deg, rgb(0, 0, 0) 0px, rgb(0, 0, 0) 27px, transparent 27px, transparent 30px), repeating-linear-gradient(30deg, rgb(0, 0, 0) 0px, rgb(0, 0, 0) 27px, transparent 27px, transparent 30px), linear-gradient(90deg, rgb(14, 172, 245), rgb(129, 60, 165));
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-attachment: fixed;
+
+
+
+}
+
+
+
+.titulo {
+
+
+    margin-top: 90px;
+    margin-right: auto;
+    margin-left: 5px;
+    color: white;
+    font-size: 60px;
+    font-family: 'Orbitron', sans-serif;
+    text-shadow: 2px 2px 8px green;
+}
+
+nav {
+    position: absolute;
+    top: 0;
+    left: 0
+}
+
+.nav-links {
+
+    list-style: none;
+    color: white;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 20px;
+
+}
+
+.nav-links li {
+
+    display: inline-block;
+    padding: 25px;
+}
+
+.nav-links a {
+    color: white;
+}
+
+
+/* secciones  */
+
+
+.sec1 {
+    display: flex;
+    margin: 0 auto;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    width: 95%;
+    height: 600px;
+    box-shadow: 15px -26px 80px rgba(36, 13, 119, 0.822);
+    border-radius: 22px;
+    background-color: black;
+}
+
+.texto {
+    margin-top: 5%;
+    margin-right: 25px;
+    width: 400px;
+    height: 500px;
+    background-color: rgba(24, 40, 189, 0.137);
+    border-radius: 15px;
+}
+
+
+.texto h2 {
+    display: flex;
+    font-size: 70px;
+    font-family: 'Orbitron', sans-serif;
+    padding: 20px;
+    color: white;
+}
+
+.texto img {
+    width: 95px;
+    height: 95px;
+}
+
+
+/* astronauta en planeta */
+
+.lahacemos img {
+    width: 500px;
+    height: 500px;
+    padding: 50px;
+    margin-top: 50px;
+    margin-left: 10px;
+    background: linear-gradient(80deg, rgb(137, 43, 226), rgba(0, 0, 255, 0.459), rgba(255, 255, 255, 0.932), rgba(0, 0, 0, 0.808));
+    border-radius: 50%;
+    box-shadow: 7px 7px 45px rgba(76, 70, 92, 0.753);
+
+}
+
+/* seccion2 */
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.tarjeta {
+
+    margin-top: 50px;
+    width: 400px;
+    height: 400px;
+    text-align: center;
+    box-shadow: 12px 12px 18px grey;
+    border-radius: 12px 12px 186px 186px;
+    background-color: rgb(18, 4, 56);
+
+
+}
+
+.tarjeta h3 {
+    text-align: center;
+    font-size: 50px;
+    color: rgb(74, 221, 231);
+    font-family: 'Orbitron', sans-serif;
+}
+
+.tarjeta img {
+    margin: 45px;
+    width: 160px;
+    height: 160px;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.tarjeta1 img {
+    background-color: rgb(0, 4, 255);
+    filter: drop-shadow(12px 12px white);
+}
+
+.tarjeta2 img {
+
+    background-color: rgb(137, 43, 226);
+    filter: drop-shadow(12px 12px white);
+}
+
+.tarjeta3 img {
+
+    background-color: rgb(0, 0, 255);
+    filter: drop-shadow(12px 12px white);
+}
+
+.sec3 {
+    width: 95%;
+    height: 300px;
+    margin: 0 auto;
+
+
+}
+
+.spikes {
+    position: relative;
+    background: #050325;
+    height: 10vh;
+    width: 100%;
+    margin: 0 auto;
+    background-color: rgba(81, 100, 110, 0.445);
+    ;
+}
+
+.spikes::after {
+    content: '';
+    position: absolute;
+    margin: 0 auto;
+    right: 0;
+    left: 0;
+    top: 100%;
+    z-index: 10;
+    display: block;
+    height: 205px;
+    background-size: 105px 100%;
+    background-image: linear-gradient(135deg, #0f033b 25%, transparent 25%), linear-gradient(225deg, #101011 25%, transparent 25%);
+    background-position: 0 0;
+    bottom: 0%;
+}
+
+.spikes h2 {
+    color: rgb(69, 6, 75);
+    font-family: 'Orbitron', sans-serif;
+    text-align: center;
+    margin-top: 40px;
+    padding: 8px;
+}
+
+.spikes img {
+    width: 100%;
+    height: auto;
+    bottom: 0px;
+}
+
+.telescopio {
+    margin: 0 auto;
+    background-color: rgba(81, 100, 110, 0.445);
+    margin-top: 94px;
+    width: 200px;
+    border-radius: 50%;
+    box-shadow: 6px 6px 8px grey;
+}
+
+/* seccion 4 */
+.sec4 {
+    position: relative;
+    top: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    width: 95%;
+    height: auto;
+    margin: 0 auto;
+    border-radius: 22px;
+    background-color: black;
+}
+
+
+
+.mensaje {
+    position: absolute;
+    width: 500px;
+    height: auto;
+    color: rgb(236, 229, 229);
+}
+
+/* seccion 5  */
+.sec5 {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 95%;
+    height: 500px;
+
+}
+
+.sec5 img {
+    margin-top: 10px;
+    z-index: 1;
+    filter: drop-shadow(12px 12px 42px rgb(62, 35, 138));
+    width: 100%;
+
+}
+
+.envoltura {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    margin-top: 10px;
+    padding: 0px;
+    width: 800px;
+    height: auto;
+    background-color: rgba(81, 100, 110, 0.445);
+    background-image: url(../imagenes/preview-15.png);
+    background-size: contain;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 12px;
+    box-shadow: 12px 12px 78px grey;
+}
+
+.envoltura h2 {
+    padding-top: 15px;
+    text-align: center;
+    color: rgb(3, 32, 18);
+    font-family: 'Orbitron', sans-serif;
+}
+
+.envoltura p {
+    padding: 10px;
+    width: 500px;
+}
+
+.piedra {
+    align-self: flex-end;
+    width: 30%;
+    height: auto;
+    left: 0px;
+}
+
+
+
+
+/* footer */
+
+.pie {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 200px;
+    background-color: rgb(4, 4, 49);
+    border-radius: 12px;
+}
+
+
+.redes {
+    width: 80%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 35px;
+    background-color: white;
+    border-radius: 12px;
+}
+
+
+.radar img {
+    width: 100px;
+    height: auto;
+    border-radius: 7px;
+}
